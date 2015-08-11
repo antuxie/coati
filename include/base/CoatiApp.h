@@ -11,7 +11,7 @@ InputParameters validParams<CoatiApp>();
 class CoatiApp : public MooseApp
 {
 public:
-  CoatiApp(const std::string & name, InputParameters parameters);
+  CoatiApp(InputParameters parameters);
   virtual ~CoatiApp();
 
   static void registerApps();
